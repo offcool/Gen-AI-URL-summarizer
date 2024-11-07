@@ -8,7 +8,6 @@ from langchain_community.document_loaders import YoutubeLoader,UnstructuredURLLo
 st.set_page_config(page_title="Summaris", page_icon="favicon.png")
 st.title("LangChain: Text  Summarizer")
 st.subheader('Summarize URL')
-##
 
 with st.sidebar:
     groq_api_key=st.text_input("Groq API Key",value="",type="password")
